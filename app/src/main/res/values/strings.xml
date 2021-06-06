@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NavigationExample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">첫번째 화면</string>
+    <string name="second_fragment">두번째 화면</string>
+    <string name="third_fragment">세번째 화면</string>
 </resources>
