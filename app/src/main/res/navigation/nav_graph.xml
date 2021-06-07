@@ -8,9 +8,9 @@
 
     <fragment
             android:id="@+id/mainFragment"
-            android:name="com.hhp227.navigationexample.fragment.FirstFragment"
-            android:label="첫번째"
-            tools:layout="@layout/fragment_first">
+            android:name="com.hhp227.navigationexample.fragment.MainFragment"
+            android:label="메인"
+            tools:layout="@layout/fragment_main">
     </fragment>
 
 </navigation>
