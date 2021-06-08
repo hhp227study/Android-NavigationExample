@@ -25,7 +25,7 @@ class SecondFragment : Fragment() {
         recycler_view.apply {
             layoutManager = LinearLayoutManager(requireContext(), RecyclerView.VERTICAL, false)
             adapter = SimpleListAdapter(list).apply {
-                setOnItemClickListener { v, p ->
+                setOnItemClickListener { v, _ ->
                     val title = v.text_view.text.toString()
                     val direction = MainFragmentDirections.actionMainFragmentToDetailFragment(title)
 
