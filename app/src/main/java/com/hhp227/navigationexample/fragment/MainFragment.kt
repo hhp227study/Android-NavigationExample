@@ -27,5 +27,6 @@ class MainFragment : Fragment() {
 
         (requireActivity() as AppCompatActivity).setSupportActionBar(toolbar)
         bottom_nav.setupWithNavController(navController)
+        setHasOptionsMenu(true)
     }
 }
