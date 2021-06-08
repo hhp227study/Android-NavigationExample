@@ -11,6 +11,17 @@
             android:name="com.hhp227.navigationexample.fragment.MainFragment"
             android:label="메인"
             tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.hhp227.navigationexample.fragment.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="text"
+            app:argType="string" />
     </fragment>
 
 </navigation>

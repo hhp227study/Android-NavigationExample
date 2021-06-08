@@ -3,16 +3,16 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
     <item
             android:id="@+id/nav_first"
-            android:title="첫번째"
+            android:title="첫번째 화면"
             android:icon="@drawable/ic_android_black_24dp" />
 
     <item
             android:id="@+id/nav_second"
-            android:title="두번째"
+            android:title="두번째 화면"
             android:icon="@drawable/ic_android_black_24dp" />
 
     <item
             android:id="@+id/nav_third"
-            android:title="세번째"
+            android:title="세번째 화면"
             android:icon="@drawable/ic_android_black_24dp" />
 </menu>
